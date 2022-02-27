@@ -15,7 +15,7 @@ public class No {
     public Object getObject() {
         return object;
     }
-
+    //adds toString method
     @Override
     public String toString() {
         return "No{" +
