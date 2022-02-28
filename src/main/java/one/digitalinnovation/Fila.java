@@ -15,6 +15,13 @@ public class Fila {
         if(!this.isEmpty()){
         No primeiroNo = refNoEntradaFila;
         while(true){
+            if(primeiroNo.getRefNo() != null){
+                primeiroNo = primeiroNo.getRefNo();
+
+            }else{
+              break;
+            }
+        }
         }
         return null;
     }
